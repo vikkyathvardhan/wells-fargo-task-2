@@ -47,7 +47,7 @@ public class Client {
     }
 
     public Long getClientId() {
-        return advisorId;
+        return clientId;
     }
 
     public String getFirstName() {
