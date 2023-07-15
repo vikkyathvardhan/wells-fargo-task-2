@@ -26,10 +26,19 @@ public class Portfolio {
         this.creationDate = creationDate;
     }
 
+    public Long getportfolioId() {
+        return portfolioId;
+    }
+
     public Long getClientId() {
         return clientId;
     }
 
+    public long getcreationDate() {
+        return creationDate;
+    }
 
-    
+    public void setcreationDate(long creationDate) {
+        this.creationDate = creationDate;
+    }   
 }
